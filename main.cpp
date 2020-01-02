@@ -1,14 +1,12 @@
 #include "stdio.h"
 
-
-#include "Test.h"
-#include "Tool.h"
+#include <Server.h>
 
 int main(){
-    Test t;
-    if(Tool::expect_content(t)){
-        printf("ok!  \n");
-    }
+
+    Server s;
+    s.dosome();
+
     return 0;
 }
 

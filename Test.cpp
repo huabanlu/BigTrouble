@@ -1,5 +1,7 @@
 #include "Test.h"
+#include "Tool.h"
 
-inline bool is_ok(){
+
+inline bool Test::is_ok(){
     return Tool::is_ok();
 }

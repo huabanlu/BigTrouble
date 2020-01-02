@@ -1,12 +1,9 @@
 #ifndef TEST_H
 #define TEST_H
 
-#include "Tool.h"
-
 #include <string>
 
-class Test {
-public:
+struct Test {
     std::string method;
 
     bool is_ok();
